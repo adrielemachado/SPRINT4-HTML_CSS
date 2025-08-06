@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,92 @@
     <link rel="stylesheet" href="/css/lancamento.css">
     <title>Lançamento Ford RANGER 2025</title>
 </head>
+
 <body>
     <header> <!--estrutura do cabeçalho-->
         <img src="/img/logo-ford-256.png" alt="logo ford">
         <nav> <!-- menu de navegação  -->
-                <ul> <!--estrutura de lista não ordenada-->
-                    <li><a href="/html/principal.html">Home</a></li> <!--hiperlink para refernciar a navegação entre as páginas-->
-                    <li><a href="/html/lancamento.html">Lançamento</a></li>
-                    <li><a href="/html/contato.html">Contato</a></li>
-                </ul>
+            <ul> <!--estrutura de lista não ordenada-->
+                <li><a href="/html/principal.html">Home</a></li>
+                <!--hiperlink para refernciar a navegação entre as páginas-->
+                <li><a href="/html/lancamento.html">Lançamento</a></li>
+                <li><a href="/html/contato.html">Contato</a></li>
+            </ul>
         </nav>
         <div></div> <!--ajuda na organização com display flex no css-->
     </header>
 
     <main>
         <!--Vídeo do youtube com texto descritivo-->
-        <!--Comparação dos veículos em tabela (table)-->
+        <section>
+            <div class="videoYT">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/vQsryuNmsL0"
+                    title="Ford Ranger 2022 | Gerações" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div>
+                <p>Eleve sua experiência de dirigir a um novo patamar com esta Ford Ranger 2025.
+                    Robusta, potente e com tecnologia de ponta, esta picape é a companheira ideal para o trabalho e para
+                    o lazer. A picape Raça Forte do Brasil. A gente sempre esteve nessa terra e vai continuar nela.</p>
+            </div>
+        </section>
+
+        <!--Comparação dos veículos em tabela (table) com input checkbox <h5>, <p> e o ícone de info-->
+        <table class="tabelaCarros">
+            <tr>
+                <td class="veiculosCard">
+                    <img src="/img/XL Cabine.jpg" alt="Veiculo1" class="veiculo-imagem">
+                    <div class="veiculoInfo">
+                        <input type="checkbox" class="veiculo-checkbox">
+                        <div class="texto-container">
+                            <h5>XL CABINE SIMPLES 2.2 DIESEL 4X4 MT 2022</h5>
+                            <p>Preço Sugerido: R$ 220.690,00 </p>
+                        </div>
+                        <img src="/img/info.png" alt="icon-informações" class="info-icon">
+                    </div>
+                </td>
+
+
+                <td class="veiculosCard">
+                    <img src="/img/xls 2.2 diesel.jpg" alt="Veiculo2" class="veiculo-imagem">
+                    <div class="veiculoInfo">
+                        <input type="checkbox" class="veiculo-checkbox">
+                        <div class="texto-container">
+                            <h5>XLS 2.2 DIESEL 4X4 AT 2022</h5>
+                            <p>Preço Sugerido: R$ 183.850,00</p>
+                        </div>
+                        <img src="/img/info.png" alt="icon-informações" class="info-icon">
+                    </div>
+                </td>
+
+
+                <td class="veiculosCard">
+                    <img src="/img/storm.jpg" alt="Veiculo3" class="veiculo-imagem">
+                    <div class="veiculoInfo">
+                        <input type="checkbox" class="veiculo-checkbox">
+                        <div class="texto-container">
+                            <h5>STORM 3.2 DIESEL 4X4 AT 2022</h5>
+                            <p>Preço Sugerido: R$ 222.790,00</p>
+                        </div>
+                        <img src="/img/info.png" alt="icon-informações" class="info-icon">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit" class="submit-botao">
+            <span>Comparar Carros</span>
+        </button>
         <!-- botão de comparar carros -->
     </main>
 
     <footer>
         <div class="redesSociais"> <!--agrupamento das imagens e o parágrafo-->
             <p>Redes Sociais:</p>
-            <a href="#"><img src="/img/facebook-50.png" alt=""></a> <!--a cerquilha é para não deixar o espaço entre aspas vazio-->
+            <a href="#"><img src="/img/facebook-50.png" alt=""></a>
+            <!--a cerquilha é para não deixar o espaço entre aspas vazio-->
             <a href="#"><img src="/img/instagram-logo-50.png" alt=""></a>
             <a href="#"><img src="/img/youtube-squared-50.png" alt=""></a>
         </div>
@@ -38,11 +102,14 @@
             <p>&copy; 2025. Ford Motor Company - Todos os direitos reservados.</p>
         </div>
 
-         <div class="logo_footer">
+        <div class="logo_footer">
             <img src="/img/ford-96.png" alt="logo ford menor">
-         </div>
-        
+        </div>
+
     </footer>
 
 </body>
+
 </html>
+
+<!--   -->
