@@ -1,0 +1,80 @@
+body{
+   font-family: Arial, sans-serif; /*definir a família tipográfica*/
+   margin: 0; /*para ocupar toda a tela*/
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh; /*mínimo de altura do viewport*/
+}
+
+main {
+    flex-grow: 1; /*define quanto o main pode crescer em relação ao header e o footer (no caso, ocupa 100% da tela)*/
+    padding: 10px 10px;
+    text-align: center;
+}
+
+header { /*tag pai (container)*/
+    display: flex;
+    justify-content: space-between; /*criação de espaço igual entre os itens*/
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul { /*caminho entre as tags*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    /*adicionar a tipografia desejada aqui*/
+    color: #000958;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #090F15;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000958;
+    color: #F1EEE6;
+    padding: 10px 40px; /* o 10px é relacionado ao eixo vertical (altura) e o 40px (espaçamento) é relacionado ao eixo horizontal*/
+}
+
+.redesSociais {
+    display: flex;
+    gap: 15px;
+}
+
+.redesSociais p{
+    margin: 5px 0;
+}
+
+.redesSociais img,
+.logo_footer img {
+    height: 30px;
+    transition: transfotm 0.3s ease;
+}
+
+.redesSociais img:hover {
+    transform: scale(1.1);
+}
+
+.copywrite p{
+margin: 0;
+font-size: 14px;
+text-align: center;
+}

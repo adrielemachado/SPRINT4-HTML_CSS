@@ -1,0 +1,6 @@
+/*só para a parte interna do main*/
+
+main .mainImage {
+    max-width: 70%;
+    height: auto;
+}
