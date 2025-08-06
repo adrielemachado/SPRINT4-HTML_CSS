@@ -1,0 +1,113 @@
+.textoPromo {
+    flex: 0 0 300px;
+    padding-right: 20px;
+}
+
+.textoPromo p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 20px 100px;
+    text-align: left;
+}
+
+.videoYT {
+    flex: 1;
+    min-width: 0;
+}
+
+.videoYT iframe {
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    border: none;
+}
+
+.tabelaCarros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.veiculoCard {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.veiculoCard img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.veiculoInfo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.veiculoInfo input[type="checkbox"] { /*a tag do checkbox é o input*/
+    width: 30px;
+    height: 30px;
+    min-height: 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: 2px 10px 0 0;
+    position: relative; 
+    flex-shrink: 0; /*impede que o checkbox aumentasse caso a div diminuisse*/
+    cursor: pointer;
+}
+
+.veiculoInfo img{
+    width: 20px;
+    margin-top: auto;
+    vertical-align: bottom;
+    padding-right: 2px;
+}
+
+.texto-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.texto-container h5 {
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #00274c;
+    
+
+}
+
+.texto-container p{
+    margin: 0;
+    font-size: 11px;
+    text-align: left;
+    color: black;
+}
+
+.submit-botao {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 200px;
+}
+
+.submit-botao:hover {
+    background-color: #00274c;
+    color: #fff;
+    transform: translateY(-2px);
+}
