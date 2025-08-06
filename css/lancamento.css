@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    
+
 }
 
 .veiculoCard {
@@ -47,23 +47,25 @@
     align-items: flex-start;
 }
 
-.veiculoInfo input[type="checkbox"] { /*a tag do checkbox é o input*/
-    width: 30px;
-    height: 30px;
+.veiculoInfo input[type="checkbox"] {
+    /*a tag do checkbox é o input*/
+    width: 20px;
+    height: 20px;
     min-height: 20px;
     border-radius: 4px;
     border: 1px solid black;
     margin: 2px 10px 0 0;
-    position: relative; 
-    flex-shrink: 0; /*impede que o checkbox aumentasse caso a div diminuisse*/
+    position: relative;
+    flex-shrink: 0;
+    /*impede que o checkbox aumentasse caso a div diminuisse*/
     cursor: pointer;
 }
 
-.veiculoInfo img{
+.veiculoInfo img {
     width: 20px;
     margin-top: auto;
     vertical-align: bottom;
-    padding-right: 2px;
+    /* padding-right: 2px; */
 }
 
 .texto-container {
@@ -73,18 +75,21 @@
 }
 
 .texto-container h5 {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     font-weight: bold;
     color: #00274c;
-    
+
 
 }
 
-.texto-container p{
+.texto-container p {
     margin: 0;
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
     color: black;
 }
