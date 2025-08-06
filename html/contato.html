@@ -21,7 +21,44 @@
         <div></div> <!--ajuda na organização com display flex no css-->
     </header>
 
-    <main></main>
+     <main class="contatoPagina">
+        <div class="contatoImagem">
+            <img src="/img/xls 2.2 diesel.jpg" alt="picape ranger xls">
+        </div>
+
+        <section class="formularioContainer">
+            <form class="formulario">
+                <h3>Sobre Você</h3>
+
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Nome Completo">
+                </div>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Telefone">
+                </div>
+                <div class="inputGrupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de contato</option>
+                        <option value="Elogio">Elogio</option>
+                        <option value="Reclamacao">Reclamação</option>
+                        <option value="Solicitacao">Solicitação</option>
+                    </select>
+
+                </div>
+                <div class="inputGrupo">
+                    <textarea placeholder="Sua Mensagem" rows="2"></textarea>
+                </div>
+
+                <button type="submit" class="submit-buttom">
+                    <span>Enviar mensagem</span>
+                </button>
+
+            </form>
+        </section>
+    </main>
 
     <footer>
         <div class="redesSociais"> <!--agrupamento das imagens e o parágrafo-->
