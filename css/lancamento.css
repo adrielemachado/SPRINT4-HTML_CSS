@@ -90,7 +90,7 @@
 }
 
 .submit-botao {
-    background-color: blue;
+    background-color: #00142E;
     color: #fff;
     border: none;
     padding: 12px;
@@ -107,7 +107,7 @@
 }
 
 .submit-botao:hover {
-    background-color: #00274c;
+    background-color: #1700F4;
     color: #fff;
     transform: translateY(-2px);
 }
