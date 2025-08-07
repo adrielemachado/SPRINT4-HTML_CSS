@@ -30,13 +30,19 @@
 
 }
 
-.veiculoCard {
-    width: 250px;
+.veiculosCard {
+    width: 380px;
     padding: 15px;
     margin: 10px;
 }
 
-.veiculoCard img {
+/* .veiculosCard div {
+    display: flex;
+    padding: 8px;
+    gap: 1rem;
+} */
+
+.veiculosCard img {
     width: 100%;
     height: auto;
     margin-bottom: 0px;
@@ -64,8 +70,8 @@
 .veiculoInfo img {
     width: 20px;
     margin-top: auto;
-    vertical-align: bottom;
-    /* padding-right: 2px; */
+    vertical-align: middle;
+    padding-right: 2px;
 }
 
 .texto-container {
