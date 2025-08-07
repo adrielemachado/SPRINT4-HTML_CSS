@@ -34,6 +34,7 @@
     text-align: left;
     margin-bottom: 5px;
     font-size: 1.3rem;
+    font-family:"Inria Sans", sans-serif;
 }
 
 .inputGrupo {
@@ -51,3 +52,46 @@
     background-color: #f9f9f9;
     transition: all 0.3 ease;
 }
+
+.inputGrupo input:focus,
+.inputGrupo select:focus,
+.inputGrupo textarea:focus {
+    border-color: #00095B;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgba(0, 39, 76, 0.1);
+}
+
+.inputGrupo select {
+    appearance: none;
+    color: #555;
+}
+
+.inputGrupo textarea {
+    resize: vertical;
+    max-height: 30px;
+}
+
+.submit-buttom {
+    background-color: #00095B; /*#00095B*/
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translateY(-2px); */
+}
+
+.submit-buttom:hover {
+    background-color:#1700F4; /*#1700F4*/
+    color: white;
+    transform: translateY(-2px);
+}
+
+/*Responsividade*/
