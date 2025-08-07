@@ -17,6 +17,12 @@ main {
     text-align: center;
 }
 
+ 
+main a {
+    text-decoration: none;
+}
+
+
 header {
     /*tag pai (container)*/
     display: flex;
