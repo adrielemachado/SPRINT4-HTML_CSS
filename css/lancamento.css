@@ -101,11 +101,11 @@
 }
 
 .submit-botao {
-    background-color: #00142E;
+    background-color: #00095B;
     color: #fff;
     border: none;
     padding: 12px;
-    border-radius: 6px;
+    border-radius: 12px;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -122,3 +122,4 @@
     color: #fff;
     transform: translateY(-2px);
 }
+
